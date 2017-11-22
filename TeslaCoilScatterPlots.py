@@ -6,7 +6,7 @@ import plotly
 # Display graph in offline mode
 plotly.offline.init_notebook_mode(connected=False)
 
-# Import expirememnt data spreadsheet as .csv file
+# Import experimemnt data spreadsheet as .csv file
 CoilData = pd.read_csv('C:/Users/K8nn8/Google Drive/School/Fall 2017/Physics 2 Electromagnetism/TeslaCoilDataCSV.csv')
 
 # Create lists of radius values for all three topload configurations
@@ -70,7 +70,6 @@ for k in range(3):
                 opacity=0.7
                 )
             )
-
         i = i + 1
 
     data[k] = trace_name[k]
@@ -84,9 +83,6 @@ for k in range(3):
             )
         )
 
-
     fig[k] = plotly.graph_objs.Figure(data=data[k], layout=layout[k])
-
     graph[k] = plotly.offline.plot(fig[k], filename=filename[k])
-
     k = k + 1
