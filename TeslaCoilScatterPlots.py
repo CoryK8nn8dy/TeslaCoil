@@ -75,7 +75,7 @@ for k in range(3):
 
     data[k] = trace_name[k]
     layout[k] = plotly.graph_objs.Layout(
-        title=title[k],
+        title="",
         margin=dict(
             l=0,
             r=0,
