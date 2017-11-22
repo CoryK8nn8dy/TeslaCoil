@@ -5,7 +5,7 @@ This project involved building and analyzing the electric field from a Slayer-Ex
 **See our results at: [https://coryk8nn8dy.github.io/TeslaCoil/](https://coryk8nn8dy.github.io/TeslaCoil/)**
 
 Project team members:
-  Chris Corona.
+  Chris Corona,
   Brian Dalke,
   Cory Kennedy,
-  Darrian Schade
+  and Darrian Schade
